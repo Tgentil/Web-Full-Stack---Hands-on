@@ -12,9 +12,21 @@
     </q-header>
 
     <q-page-container>
-      <button @click="add">+</button>
-      <button @click="remove">-</button>
-      <input v-model="arrContatos[0].nome" />
+      <div class="row">
+        <div class="col instructions">Mude o nome do primeiro card :</div>
+        <div class="col">
+          <input class="custom-input" v-model="arrContatos[0].nome" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col instructions">Adicione / Remova cards</div>
+        <div class="col">
+          <div class="button-wrapper">
+            <button class="btn-add" @click="add">+</button>
+            <button class="btn-remove" @click="remove">-</button>
+          </div>
+        </div>
+      </div>
       <div v-for="c in arrContatos" v-bind:key="c.fone">
         <card-contato :contato="c" />
       </div>
@@ -65,3 +77,7 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+@import "../css/app.scss";
+</style>
