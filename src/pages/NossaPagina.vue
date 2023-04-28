@@ -6,22 +6,10 @@
           <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
           </q-avatar>
-          Title
+          Cards de Contato
         </q-toolbar-title>
-
-        <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
       </q-toolbar>
     </q-header>
-
-    <q-drawer
-      show-if-above
-      v-model="rightDrawerOpen"
-      side="right"
-      behavior="desktop"
-      elevated
-    >
-      <!-- drawer content -->
-    </q-drawer>
 
     <q-page-container>
       <button @click="add">+</button>
