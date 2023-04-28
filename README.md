@@ -2,6 +2,11 @@
 
 Este é o primeiro projeto da aula do extensão do curso de Web Full Stack/Hands-on da Universidade do Sul de Santa Catarina (Unisul), ministrado pelo professor [Jean Paul Lopes](https://github.com/jeanpaullopes). O código base para o projeto pode ser encontrado em: https://github.com/jeanpaullopes/extensao23_1_aula1
 
+## Interface
+
+![Interface do Site](src/assets/interface.png)
+
+
 ## Configuração do Ambiente
 
 Para configurar o ambiente, siga os passos abaixo:
@@ -40,10 +45,10 @@ ou
 ```bash
 yarn quasar dev
 ```
-ou 
+ou
 ```bash
 npm run dev
-``` 
+```
 
 Todos os comandos acima iniciam a aplicação em modo de desenvolvimento.
 
