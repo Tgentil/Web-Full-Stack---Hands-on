@@ -12,14 +12,14 @@
     </q-header>
 
     <q-page-container>
-      <div class="row">
+      <div class="row flex-column">
         <div class="col instructions">Mude o nome do primeiro card :</div>
         <div class="col">
           <input class="custom-input" v-model="arrContatos[0].nome" />
         </div>
       </div>
-      <div class="row">
-        <div class="col instructions">Adicione / Remova cards</div>
+      <div class="row flex-column">
+        <div class="col instructions">Adicione / Remova cards:</div>
         <div class="col">
           <div class="button-wrapper">
             <button class="btn-add" @click="add">+</button>
