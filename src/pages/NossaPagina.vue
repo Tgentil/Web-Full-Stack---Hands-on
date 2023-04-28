@@ -8,6 +8,7 @@
           </q-avatar>
           Cards de Contato
         </q-toolbar-title>
+        <button id="theme-toggle" class="btn-toggle">Dark Mode</button>
       </q-toolbar>
     </q-header>
 
@@ -37,9 +38,23 @@
 <script>
 import { ref } from "vue";
 import CardContato from "../components/CardContato.vue";
+import "../js/scripts.js";
 
 export default {
   components: { CardContato },
+  mounted() {
+    const toggleButton = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    toggleButton.addEventListener("click", function () {
+      body.classList.toggle("dark-mode");
+      if (body.classList.contains("dark-mode")) {
+        toggleButton.innerHTML = "Light Mode";
+      } else {
+        toggleButton.innerHTML = "Dark Mode";
+      }
+    });
+  },
   methods: {
     add() {
       this.arrContatos.push({
