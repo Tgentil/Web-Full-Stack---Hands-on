@@ -24,12 +24,22 @@ body {
 
 .custom-input {
   border: none;
-  border-bottom: 1px solid $light-grey;
+  border-bottom: 1px solid rgb(0, 153, 255);
+  border-right: 4px solid rgb(0, 153, 255);
+  border-top: 1px solid rgb(0, 153, 255);
+  border-left: 4px solid rgb(0, 153, 255);;
   outline: none;
   font-size: 1.2rem;
-  width: 100%;
-  padding-top: 20px;
+  width: 30%;
+  padding-left: 10px;
+
   margin: 16px 0 0 10px;
+  border-radius: 8px;
+
+  &:focus {
+    box-shadow: 0 0 16px rgb(0, 153, 255);
+    border-right-color: rgb(255, 165, 0);
+  }
 }
 
 .button-wrapper {
