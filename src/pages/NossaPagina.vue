@@ -25,6 +25,7 @@
 
     <q-page-container>
       <button @click="add">+</button>
+      <button @click="remove">-</button>
       <input v-model="arrContatos[0].nome" />
       <div v-for="c in arrContatos" v-bind:key="c.fone">
         <card-contato :contato="c" />
@@ -40,13 +41,16 @@ import CardContato from "../components/CardContato.vue";
 export default {
   components: { CardContato },
   methods: {
-    add: function () {
+    add() {
       this.arrContatos.push({
         nome: "Recruta",
         sobrenome: "Madagasgar",
         fone: "00000",
         email: "recruta@penguins.com",
       });
+    },
+    remove() {
+      this.arrContatos.pop();
     },
   },
   data() {
