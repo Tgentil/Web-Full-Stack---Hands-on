@@ -6,6 +6,7 @@ Este é o primeiro projeto da aula do extensão do curso de Web Full Stack/Hands
 
 ![Interface do Site](src/assets/interface.png)
 
+![interface DarkMode](src/assets/interface2.png)
 
 ## Configuração do Ambiente
 
