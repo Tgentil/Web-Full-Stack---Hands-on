@@ -1,41 +1,72 @@
-# Proeto1 (aula1)
+# Web Full Stack - project 1
 
-Nosso primeiro projeto de aula da extensao 
+Este é o primeiro projeto da aula do extensão do curso de Web Full Stack/Hands-on da Universidade do Sul de Santa Catarina (Unisul), ministrado pelo professor [Jean Paul Lopes](https://github.com/jeanpaullopes). O código base para o projeto pode ser encontrado em: https://github.com/jeanpaullopes/extensao23_1_aula1
 
-## Install the dependencies
+## Configuração do Ambiente
+
+Para configurar o ambiente, siga os passos abaixo:
+
+1.  Instale o gerenciador de pacotes [Node.js](https://nodejs.org/) que já inclui o npm, o gerenciador de pacotes padrão para o Node.js.
+
+
+2. Instale o gerenciador de pacotes [yarn](https://yarnpkg.com/) com o comando:
+
+   ```bash
+   npm i -g yarn
+   ```
+
+3. Instale o framework [Quasar CLI](https://quasar.dev/start/quasar-cli) e o Vue.js com os comandos:
+
+   ```bash
+   npm install -g @quasar/cli
+   npm install -g vue
+   ```
+
+   Com estes passos, você já pode prosseguir para instalar as dependências do projeto e executar os comandos descritos no restante do README.
+
+## Instalando as dependências
 ```bash
 yarn
-# or
+# ou
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Iniciando a aplicação em modo de desenvolvimento (hot-code reloading, error reporting, etc.)
+
 ```bash
 quasar dev
 ```
+ou
+```bash
+yarn quasar dev
+```
+ou 
+```bash
+npm run dev
+``` 
+
+Todos os comandos acima iniciam a aplicação em modo de desenvolvimento.
 
 
-### Lint the files
+### Verificando os arquivos
 ```bash
 yarn lint
-# or
+# ou
 npm run lint
 ```
 
 
-### Format the files
+### Formatando os arquivos
 ```bash
 yarn format
-# or
+# ou
 npm run format
 ```
 
-
-
-### Build the app for production
+### Compilando a aplicação para produção
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+### Personalizando a configuração
+Veja [Configurando o quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
