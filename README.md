@@ -1,5 +1,7 @@
 # Web Full Stack - project 1
 
+ [![GitHub](https://img.shields.io/badge/Visit-My%20Profile-0891B2?style=flat-square&logo=github)](https://github.com/Tgentil)
+
 Este é o primeiro projeto da aula do extensão do curso de Web Full Stack/Hands-on da Universidade do Sul de Santa Catarina (Unisul), ministrado pelo professor [Jean Paul Lopes](https://github.com/jeanpaullopes). O código base para o projeto pode ser encontrado em: https://github.com/jeanpaullopes/extensao23_1_aula1
 
 ## Interface
